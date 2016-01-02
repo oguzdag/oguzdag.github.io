@@ -88,7 +88,6 @@ $ docker images
 ![icerik.png]({{site.baseurl}}/images/icerik.png)
 
 
-
 Şimdi yapmamız gereken tek şey aşağıdaki komutla çalıştırmak
 
 ```
