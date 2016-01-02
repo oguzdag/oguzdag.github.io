@@ -2,6 +2,6 @@
 published: false
 ---
 
-## A New Post
+## Deneme amaçlı yazılan bu blog aslında sadece formatları test etmek için yapılmıştır.
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Bunun _dışında_ tüm **denemeleri** burada yapacağım.
