@@ -85,9 +85,8 @@ USER@OGUZ MINGW64 ~
 $ docker images
 ```
 
-```
-images görüntüsünü koy
-```
+![içerik.png]({{site.baseurl}}/images/içerik.png)
+
 
 Şimdi yapmamız gereken tek şey aşağıdaki komutla çalıştırmak
 
