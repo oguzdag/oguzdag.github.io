@@ -108,3 +108,4 @@ yerine
 docker run -p 8080:8080 -p 50000:50000 -v //your//home://var//jenkins_home jenkins
 ```
 
+Ve ta-tam artık Jenkins'imiz servise hazır. `docker ps -a` komutu ile çalışan jenkins container'ının portunu kontrol edin ve ardından `http://192.168.99.100:<port>` ile giriş yapabilirsiniz. Afiyetle çalışabilirsiniz.
