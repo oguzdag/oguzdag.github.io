@@ -13,15 +13,10 @@ categories:
 
 ![mekan_asistani_logo.png]({{site.baseurl}}/images/mekan_asistani_logo.png)
 
-
-
 Nihayet dün mekan asistanım benimle iletişime geçti ve bugün deneme fırsatım oldu..Arkadaşlarımla Ataşehir'de buluşacağım, genelde her Cuma buluşur ve acaba ne şirketi kursak diye aramızda tartışırız. İnanın her Cuma bir şirket kurmak çok yorucu, ama neyse ki, akşam bittiğinde şirket ya iflas etmiş, ya da kapatılmış olur. Kısa günün karı. Denemek için iyi bir fırsat olacağını düşündüm ve direk sordum Mekan Asistanı'na, birkaç dakika içerisinde dönüş yaptılar. Dediğim gibi ekran görüntüleri anlatsın bu güzel diyalogu. Mekanı seçtim, sonra durmadım, haftasonu için ailemle başbaşa bir de kahvaltı ayarladım.
 
-![whatsapp1.jpg]({{site.baseurl}}/images/whatsapp1.jpg) | ![whatsapp2.jpg]({{site.baseurl}}/images/whatsapp2.jpg)
- | ![whatsapp3.jpg]({{site.baseurl}}/images/whatsapp3.jpg)
+![whatsapp1.jpg]({{site.baseurl}}/images/whatsapp1.jpg)![whatsapp2.jpg]({{site.baseurl}}/images/whatsapp2.jpg)![whatsapp3.jpg]({{site.baseurl}}/images/whatsapp3.jpg)
 
---------|---------|--------
-Deneme  |Deneme   |Deneme
 
 Uygulamayı şimdiden arkadaşlarıma tavsiye ettim açıkçası çok da beğendiler.
 
