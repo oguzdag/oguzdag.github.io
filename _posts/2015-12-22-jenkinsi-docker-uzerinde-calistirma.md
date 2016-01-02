@@ -13,7 +13,9 @@ categories:
 
 Uzun süredir blog yazarım, ve daima blogların insanı sıkmaması taraftarıyımdır. Ben de o tarzda blog yazmaya karar verdim. Madem blog'un adı **Teknoloji Mutfağı**, o halde her tür implementasyonda bu mutfakta pişmiş bir yemek oluyor.
 
-![Docker]({{site.baseurl}}/images/homepage-docker-logo.png)
+![Docker]({{site.baseurl}}/images/homepage-docker-logo.png)|![Jenkins]({{site.baseurl}}/images/jenkins_logo.png)
+
+
 
 
 İlk yazı olarak [Docker](https://hub.docker.com/) ve [Jenkins](https://jenkins-ci.org/) olacak içeriğinde. Böylece hem Docker'a, hem de Jenkins'e giriş yapmış olacağım. Açıkçası yıllardır Jenkins kullanıyorum, taa Hudson'dan beri , Docker ile de bu yakınlarda tanıştım. Aslında docker ile tanışmam bir başka open source uygulamayı en hafif ve laptop'uma en az kurulum ile nasıl hayata geçiririm derken buldum. Daha önce bir arkadaşım bahsetmişti ama bu kadar hoşuma gideceğini zannetmiyordum. Docker ile ilgili ileride çok daha açıklayıcı yazılar yazacağım, bu seferlik sadece Jenkins'i en hızlı ve en kurulumsuz şekilde nasıl ayağa kaldırıyoruz onu anlatacağım.
