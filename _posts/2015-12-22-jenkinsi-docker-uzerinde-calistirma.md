@@ -25,3 +25,44 @@ Komut şekli basit
 > docker - komut - container
 
 Komut satırı basit `docker pull jenkins` ile jenkins docker imajının son halini lokalimize alıyoruz.
+
+```
+$ docker pull jenkins
+Using default tag: latest
+latest: Pulling from library/jenkins
+9ee13ca3b908: Pull complete
+23cb15b0fcec: Pull complete
+5e5f21412e19: Pull complete
+df82ac64861d: Pull complete
+ce5064412ef8: Pull complete
+46cb1e153bac: Pull complete
+65e700d53fe2: Pull complete
+e4c1902ba8e2: Pull complete
+041291567735: Pull complete
+38bbdcdf22d3: Pull complete
+ee4c5fbd36c4: Pull complete
+d4849089125b: Pull complete
+20d5b56ce07a: Pull complete
+0f5dea7dfc5b: Pull complete
+03146e17cab8: Pull complete
+56b017425a9d: Pull complete
+cd7b57d2dd48: Pull complete
+caddf6da8997: Pull complete
+7f6985b7763d: Pull complete
+b188b3306bfe: Pull complete
+908ef1cf00c8: Pull complete
+d50a5ae10995: Pull complete
+943cf2d379e0: Pull complete
+268d99f210c3: Pull complete
+72d6788c4cf5: Pull complete
+715450d4ed36: Pull complete
+c5344d64bc07: Pull complete
+63c8beb95b2f: Pull complete
+c9bf8ee44a75: Pull complete
+9dcf64060fae: Pull complete
+c37f2cb6820f: Pull complete
+b368fe5ad08f: Pull complete
+eb09f4d99ddf: Pull complete
+Digest: sha256:f0459bf4d127c4e6d710c745075017a3448a7416d46d547f51928c763a184bc1
+Status: Downloaded newer image for jenkins:latest
+```
