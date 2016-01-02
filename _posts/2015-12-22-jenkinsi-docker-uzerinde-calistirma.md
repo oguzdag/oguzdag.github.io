@@ -4,6 +4,11 @@ title: Jenkinsi Docker Üzerinde Çalıştırma
 published: true
 ---
 
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> are supported
+- [x] list syntax is required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
 ## Başlarken
 
 Uzun süredir blog yazarım, ve daima blogların insanı sıkmaması taraftarıyımdır. Ben de o tarzda blog yazmaya karar verdim. Madem blog'un adı **Teknoloji Mutfağı**, o halde her tür implementasyonda bu mutfakta pişmiş bir yemek oluyor.
