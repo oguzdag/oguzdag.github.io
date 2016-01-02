@@ -8,6 +8,10 @@ published: true
 
 Uzun süredir blog yazarım, ve daima blogların insanı sıkmaması taraftarıyımdır. Ben de o tarzda blog yazmaya karar verdim. Madem blog'un adı **Teknoloji Mutfağı**, o halde her tür implementasyonda bu mutfakta pişmiş bir yemek oluyor.
 
+```
+Docker ve Jenkins imajlarını yanyana koy
+```
+
 İlk yazı olarak [Docker](https://hub.docker.com/) ve [Jenkins](https://jenkins-ci.org/) olacak içeriğinde. Böylece hem Docker'a, hem de Jenkins'e giriş yapmış olacağım. Açıkçası yıllardır Jenkins kullanıyorum, taa Hudson'dan beri , Docker ile de bu yakınlarda tanıştım. Aslında docker ile tanışmam bir başka open source uygulamayı en hafif ve laptop'uma en az kurulum ile nasıl hayata geçiririm derken buldum. Daha önce bir arkadaşım bahsetmişti ama bu kadar hoşuma gideceğini zannetmiyordum. Docker ile ilgili ileride çok daha açıklayıcı yazılar yazacağım, bu seferlik sadece Jenkins'i en hızlı ve en kurulumsuz şekilde nasıl ayağa kaldırıyoruz onu anlatacağım.
 
 ## Malzemeler
@@ -66,3 +70,41 @@ eb09f4d99ddf: Pull complete
 Digest: sha256:f0459bf4d127c4e6d710c745075017a3448a7416d46d547f51928c763a184bc1
 Status: Downloaded newer image for jenkins:latest
 ```
+
+Hooop jenkins lokal imajların arasına geldi.
+
+```
+USER@OGUZ MINGW64 ~
+$ docker images
+```
+
+```
+images görüntüsünü koy
+```
+
+Şimdi yapmamız gereken tek şey aşağıdaki komutla çalıştırmak
+
+```
+$ docker run -p 8080:8080 -p 50000:50000 jenkins
+```
+
+Eğer 8080 ve 50000 portları yerine docker'ın kendisinin otomatik olarak port atamasını istiyorsanız aşağıdaki satır yeterli.
+
+```
+$ docker run -P jenkins
+```
+
+Farkındaysanız, neredeyse `-p`veya `-P` dışında hiç parametre yok, o da container içerisindeki port'ları docker'a hangi port'lardan map edeceğimizi söylüyoruz.
+
+**_Önemli not :_** docker run komutunda eğer `-v` parametresini kullanıyorsanız, path yazarken "/" yerine "//" kullanın, windows'un handikaplarından birisi (https://github.com/docker/docker/issues/18290)
+
+**Örnek:**
+
+```
+docker run -p 8080:8080 -p 50000:50000 -v /your/home:/var/jenkins_home jenkins
+```
+yerine
+``` 
+docker run -p 8080:8080 -p 50000:50000 -v //your//home://var//jenkins_home jenkins
+```
+
