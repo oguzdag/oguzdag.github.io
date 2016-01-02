@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Docker Swarm nasıl yapılır ve nasıl test edilir?
+title: "Docker Swarm nasıl yapılır ve nasıl test edilir?"
 published: true
 categories: 
   - docker swarm
   - docker
   - carina
 ---
+
 
 ## Başlarken
 
@@ -15,6 +16,9 @@ Docker Swarm gerçekten çok çok çok önemli bir araç. Özellikle docker'ı k
 > "We’ll continue to test Swarm, pushing its limits and using the results to harden it." 
 
 buram buram kendine güven kokuyor açıkçası.
+
+![logo-title-final-swarm-2d-copy.png]({{site.baseurl}}/images/logo-title-final-swarm-2d-copy.png)
+
 
 Docker Swarm kullanarak clusterlama ve ölçekleme yapan bildiğim [Carina](https://getcarina.com/) var. İyi düşünülmüş ve doğru konumlandırılmış bir çözüm. Daha bir çok çözümün bu alanda çıkacağını tahmin ediyorum ama ilk olmak daima farklılık yaratır.Carina ile ilgili daha fazla bilgi [web sayfalarında](https://getcarina.com/docs/overview-of-carina/) var tabii ki. Açık açık yazmışlar, neyi docker, neyi docker-swarm ve neyi kendileri yapıyor.
 
