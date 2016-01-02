@@ -154,16 +154,11 @@ yapıldığında aşağıda görüldüğü gibi, swarm-master üzerinde run yapm
 
 ```
 CONTAINER ID        IMAGE               COMMAND                  CREATED                  STATUS                     PORTS               NAMES
-ae3414a0a1e1        hello-world         "/hello"                 Less than a second ago   Exited (0) 4 seconds ago                       swarm-agent-00/drunk_wi
-ng
-9aa654c525ef        swarm:latest        "/swarm join --advert"   2 minutes ago            Up 2 minutes                                   swarm-agent-01/swarm-ag
-ent
-24e200e3ca4e        swarm:latest        "/swarm join --advert"   3 minutes ago            Up 3 minutes                                   swarm-agent-00/swarm-ag
-ent
-ebbab9db7b32        swarm:latest        "/swarm join --advert"   6 minutes ago            Up 6 minutes                                   swarm-master/swarm-agen
-t
-ed8842080831        swarm:latest        "/swarm manage --tlsv"   6 minutes ago            Up 7 minutes                                   swarm-master/swarm-agen
-t-master
+ae3414a0a1e1        hello-world         "/hello"                 Less than a second ago   Exited (0) 4 seconds ago                       swarm-agent-00/drunk_wing
+9aa654c525ef        swarm:latest        "/swarm join --advert"   2 minutes ago            Up 2 minutes                                   swarm-agent-01/swarm-agent
+24e200e3ca4e        swarm:latest        "/swarm join --advert"   3 minutes ago            Up 3 minutes                                   swarm-agent-00/swarm-agent
+ebbab9db7b32        swarm:latest        "/swarm join --advert"   6 minutes ago            Up 6 minutes                                   swarm-master/swarm-agent
+ed8842080831        swarm:latest        "/swarm manage --tlsv"   6 minutes ago            Up 7 minutes                                   swarm-master/swarm-agent-master
 ```
 
 ## Son Söz
