@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title: Jenkins'i Docker Üzerinde Çalıştırma
+title: Jenkinsi Docker Üzerinde Çalıştırma
 published: true
 ---
 
