@@ -8,9 +8,6 @@ categories:
 ---
 
 
-
-## Başlarken
-
 Uzun süredir blog yazarım, ve daima blogların insanı sıkmaması taraftarıyımdır. Ben de o tarzda blog yazmaya karar verdim. Madem blog'un adı **Teknoloji Mutfağı**, o halde her tür implementasyonda bu mutfakta pişmiş bir yemek oluyor.
 
 ![Docker]({{site.baseurl}}/images/homepage-docker-logo.png) 
