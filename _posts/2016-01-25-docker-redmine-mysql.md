@@ -27,11 +27,11 @@ docker run -d -name redminesql -v /data/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSW
 
 **Parametreler:**
 
-	- **-d :** daemon olarak çalıştırır
-	- **-name redminesql :** container'ın adı belirleniyor.
-	- **-v /data/mysql:/var/lib/mysql :** mysql datasını host üzerinde başka bir lokasyona mount ediyor. Bunun yapılma sebebi olası bir migrasyon esnasında Redmine datalarını taşıyabilmek.
-	- **-e MYSQL_ROOT_PASSWORD=secret :** MySQL root şifresi Redmine için setleniyor.
-	- **-e MYSQL_DATABASE=redmine :** Redmine için veritabanı yaratılıyor.
+	-d : daemon olarak çalıştırır
+	-name redminesql : container'ın adı belirleniyor.
+	-v /data/mysql:/var/lib/mysql : mysql datasını host üzerinde başka bir lokasyona mount ediyor. Bunun yapılma sebebi olası bir migrasyon esnasında Redmine datalarını taşıyabilmek.
+	-e MYSQL_ROOT_PASSWORD=secret : MySQL root şifresi Redmine için setleniyor.
+	-e MYSQL_DATABASE=redmine : Redmine için veritabanı yaratılıyor.
 
 Bu komut da Redmine'ı çalıştırmak için gerekli
 
@@ -43,9 +43,9 @@ docker run -d --name myredmine -v /data/redmine:/usr/src/redmine/files -p 3000:3
 
 **Parametreler:**
 
-**-d, -name, -v :** Yukarıdaki aynı işleri yapıyor. Burada -v parametresi ile host'a mount edilen alanda Redmine üzerinde yapılan dokümantasyon esnasında yüklenen dosyalar var.
-**-p 3000:3000 :** Container'ın 3000 portunu, host'un 3000 portuna map ediyor.
-**--link redminesql:mysql :** Container'ın mysql bağlantısını, redminesql Container'ına bağlıyor.
+	-d, -name, -v : Yukarıdaki aynı işleri yapıyor. Burada -v parametresi ile host'a mount edilen alanda Redmine üzerinde yapılan dokümantasyon esnasında yüklenen dosyalar var.
+	-p 3000:3000 : Container'ın 3000 portunu, host'un 3000 portuna map ediyor.
+  	--link redminesql:mysql : Container'ın mysql bağlantısını, redminesql Container'ına bağlıyor.
 
 Bunları yaptıktan sonra yapmanız gereken http://<IP>:3000 portunu browser'ınıza yazmak. İlk admin ile login olduğunuzda "Default Configuration" ı yüklemeyi unutmayın, aksi takdirde bir çok özellik eksik oluyor.
 
