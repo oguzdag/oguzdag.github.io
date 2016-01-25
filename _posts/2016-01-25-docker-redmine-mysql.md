@@ -22,7 +22,7 @@ Aşağıdaki komut Redmine için gerekli olan MySQL'in çalışması için gerek
 **Komut:**
 
 ```
-docker run -d -name redminesql -v /data/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=secret -e MYSQL_DATABASE=redmine mysql
+docker run -d --name redminesql -v /data/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=secret -e MYSQL_DATABASE=redmine mysql
 ```
 
 **Parametreler:**
