@@ -27,11 +27,11 @@ docker run -d -name redminesql -v /data/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSW
 
 **Parametreler:**
 
--**-d :** daemon olarak çalıştırır
--**-name redminesql :** container'ın adı belirleniyor.
--**-v /data/mysql:/var/lib/mysql :** mysql datasını host üzerinde başka bir lokasyona mount ediyor. Bunun yapılma sebebi olası bir migrasyon esnasında Redmine datalarını taşıyabilmek.
--**-e MYSQL_ROOT_PASSWORD=secret :** MySQL root şifresi Redmine için setleniyor.
--**-e MYSQL_DATABASE=redmine :** Redmine için veritabanı yaratılıyor.
+	-**-d :** daemon olarak çalıştırır
+	-**-name redminesql :** container'ın adı belirleniyor.
+	-**-v /data/mysql:/var/lib/mysql :** mysql datasını host üzerinde başka bir lokasyona mount ediyor. Bunun yapılma sebebi olası bir migrasyon esnasında Redmine datalarını taşıyabilmek.
+	-**-e MYSQL_ROOT_PASSWORD=secret :** MySQL root şifresi Redmine için setleniyor.
+	-**-e MYSQL_DATABASE=redmine :** Redmine için veritabanı yaratılıyor.
 
 Bu komut da Redmine'ı çalıştırmak için gerekli
 
