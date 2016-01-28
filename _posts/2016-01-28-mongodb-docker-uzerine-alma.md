@@ -75,7 +75,7 @@ Server has startup warnings:
 switched to db XXXXXXXXX
 > db.getCollectionNames()
 [ "XXXX", "YYYY", "ZZZZ" ]
-> db.Ilanlar.find().count()
+> db.XXXX.find().count()
 16333
 > 
 ```
