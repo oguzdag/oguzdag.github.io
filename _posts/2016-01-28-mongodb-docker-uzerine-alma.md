@@ -58,7 +58,30 @@ _pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connec
 
 Artık MongoDB Docker container üzerinde çalışıyor ve verileri de kaybetmedik. Bunu test etmek de kolay. 
 
+```
+$ sudo apt-get install mongodb-org-shell=3.2.1
+```
 
+```
+$ mongo
+MongoDB shell version: 3.2.1
+connecting to: test
+Server has startup warnings: 
+2016-01-27T11:35:02.055+0000 I CONTROL  [initandlisten] 
+2016-01-27T11:35:02.055+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2016-01-27T11:35:02.055+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2016-01-27T11:35:02.055+0000 I CONTROL  [initandlisten] 
+2016-01-27T11:35:02.055+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2016-01-27T11:35:02.055+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2016-01-27T11:35:02.055+0000 I CONTROL  [initandlisten] 
+> use XXXXXXXXX
+switched to db XXXXXXXXX
+> db.getCollectionNames()
+[ "XXXX", "YYYY", "ZZZZ" ]
+> db.XXXX.find().count()
+16333
+> 
+```
 
 _**Problem**_
 **begin**
