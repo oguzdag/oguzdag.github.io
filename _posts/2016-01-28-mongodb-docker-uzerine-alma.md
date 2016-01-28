@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mevcut çalışan bir MongoDB'yi Docker üzerine taşıma
-published: false
+published: true
 categories: 
   - docker
   - mongodb
