@@ -57,9 +57,11 @@ _pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connec
 **end**
 
 Artık MongoDB Docker container üzerinde çalışıyor ve verileri de kaybetmedik. Bunu test etmek de kolay. 
+
 ```
 $ sudo apt-get install mongodb-org-shell=3.2.1
-
+```
+```
 $ mongo
 MongoDB shell version: 3.2.1
 connecting to: test
