@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: "MongoDB Universitesi - Yolculuk Basliyor"
 categories: 
@@ -24,3 +24,5 @@ Sonraki almak istediğim ders **M202: MongoDB Advanced Deployment and Operations
 - **Operating System:** Mac OS X 10.7+ 64-bit, Ubuntu 14.04+ 64-bit, or Windows 7/8/8.1 (64-bit) (_**Tabii ki Ubuntu**_)
 - **MongoDB:** 3.0.4+ (3.2.1, ufak bir ayrıntı, MongoDB; Docker imajından çalışıyor, [Mevcut çalışan bir MongoDB'yi Docker üzerine taşıma](http://oguzdag.github.io/mongodb-docker-uzerine-alma/) konusunda anlatmıştım)
 - Python 2.7, pymongo 3.0.3+, and Bottle 0.12 (Python tamam, neden 3.x değil, pymongo tamam 3.2, Bottle 0.12.9 ama bunu hiç kullanmadım)
+
+Kendimce ilerlemeleri buraya yazmayı düşünüyorum. Haydi hayırlısı :)
