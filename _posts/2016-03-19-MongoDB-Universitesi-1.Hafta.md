@@ -13,6 +13,6 @@ Evet ilk hafta başladı, yaklaşık 2 saatlik video ve ardından verilen ödevl
 
 **"MongoDB for DBA"** dersi, mongo shell ile sorguların çekilmesi, limit, skip, filter konuları ile tamamlandı. Ayrıca, mimariden bahsedildi, yani yatay ve dikey genişlemede MongoDB nasıl davranır falan bunlardan bahsedildi. Burada ise yine monogdb kurulu ise ve verilen json dosyasını mongoimport ile import etti iseniz, bazı sonuçların çıktılarını göndermeniz ile sona eriyor.
 
-**Not :** Ubuntu üzerinde MongoDB kurarken en son versiyonu kurmak için bu [linki] (https://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/) kullanın. Eğer '''direk sudo apt-get install mongodb-server''' derseniz, mongodb'nin 2.x versiyonunu kuruyor.
+**Not :** Ubuntu üzerinde MongoDB kurarken en son versiyonu kurmak için bu [linki] (https://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/) kullanın. Eğer ```direk sudo apt-get install mongodb-server``` derseniz, mongodb'nin 2.x versiyonunu kuruyor.
 
 İlk hafta için şunu söyleyebilirim, güzel ve mantıklı bir uygulama, sonunda ne verdiği değil, süreçte neleri öğretebildiği çok daha önemlidir ve gördüğüm kadarı ile bir hayli öğretiyor.
