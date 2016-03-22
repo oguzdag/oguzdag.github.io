@@ -65,18 +65,16 @@ Thread dump içerisinde bu satır dump'ın neden atıldığını gösterir. Beni
 
 ```
 0SECTION       MEMINFO subcomponent dump routine
-
 NULL           =================================
-
 1STHEAPFREE    Bytes of Heap Space Free: 1bee0198 
-
 1STHEAPALLOC   Bytes of Heap Space Allocated: 40000000
 ```
 Bu kısım hexadecimal, yani bunu decimal'a çevirirseniz, max heap ve boş miktarı görebilirsiniz. Bu da faydalı bir bilgidir. Bazen OutOfMemory heap'in farklı bölümlerinde gerçekleşebilir, yani native memory'de verebilir, permanent space de, dolayısıyla JVM heap de mi yoksa, başka bir yerde mi anlamak için iyi bir nokta burası.
 
 ### 3. Sonra nereye bakacağız?
 
-```1XMTHDINFO     All Thread Details
+```
+1XMTHDINFO     All Thread Details
 ```
 Ta-tam.. Asıl bakılması gereken yer burası, thread'lerim ne iş yapıyor? Thread Dump içerisinde yukarıdaki ifadeyi arayın, sonrasında aşağıda doğru scroll etmeye başlayın. Çünkü tüm Thread bilgileri bundan sonrasında yer alıyor. Buradan sonra tamamiyle deneyiminizle hareket etmeniz gerekiyor. Ne kadar çok sıkıntıda Thread Dump incelerseniz, o kadar tecrübe kazanır ve o kadar "Desen" yakalarsınız... Ama yine ufak bir tüyo, standard bir J2EE uygulaması kullanıyorsanız "WebContainer" threadlerine bakmanızda fayda var. Aynı tür thread'lerin hepsinin beklediği ortak bir kaynak var mı bu da bakılabilecek ayrı bir konudur.
 
