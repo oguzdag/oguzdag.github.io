@@ -6,6 +6,7 @@ categories:
   - ITM
 ---
 
+
 Ooooo, bir hayli zaman olmuş, teknoloji veya sorunlara dair birşeyler karalamayalı... Geçenlerde kendi kendime söyleniyordum, şöyle kendi kendime çözebildiğim bir problem olsa da buralarda paylaşsam, hayrım dokunsa birilerine diye, nihayetinde bu tarz bir durum oluştu ve ben de burada paylaşayım dedim, çünkü herhangi bir şekilde bu sorunun Türkçe'si yok, ya da ben kısıtlı arama yeteneklerimle bulamadım...
 
 
@@ -14,7 +15,7 @@ Sorunumuz ITM (IBM Tivoli Monitoring) ürününde oluyor... Şu anda deneme aşa
 
 Neyse olay şöyle gelişiyor güzel güzel Query'lerden View'lar yaratıp, ardından bunu grafiklere çeviriyorsunuz, ardından Workspace'i kaydedip güzelce diğer Workspace'lerde dolaşıyorsunuz, sonra geri dönüp bir bakıyorsunuz ki Workspace'inizde o güzelim View'ların yerinde yeller esiyor... Yerine iğrenç bir buton "sol düğme" veya bir diğer iğrenç buton "sağ düğme" (Figür 1), bir de bu iki cibilliyetsiz butonun sağında, solunda, altında, üstünde bunu kapatabileceğiniz, düzenleyebileceğiniz bir opsiyon yok... Çaaaat, kaldınız o şekilde, yapılacak tek şey Workspace'i silip ardından yeniden yapmak...
 
-![]({{site.baseurl}}/_posts/ss001.JPG)
+![ss001.JPG]({{site.baseurl}}/_posts/ss001.JPG)
 
 Ama adamlar (IBM) zaten bunu bulmuş da henüz biz Türkler buna dair birşey yapmamışız anlaşılan... Belki bulan vardır ama ben bulamayanlar için burada paylaşayım...
 
