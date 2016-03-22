@@ -55,16 +55,21 @@ Burada yaklaşık olarak 7 senedir Websphere kullandığımız için burada anla
 
 ### 1. Thread Dump neden alınmış?
 
-```1TISIGINFO     Dump Event "user" (00004000) received 
+```
+1TISIGINFO     Dump Event "user" (00004000) received 
 ```
 Thread dump içerisinde bu satır dump'ın neden atıldığını gösterir. Benim örneğim "user", yani "ben yaptım", ama bu eğer OutOfMemory olsaydı, OutOfMemory olacaktı.
 
 ### 2. OutOfMemory durumu mu var?
 
 
-```0SECTION       MEMINFO subcomponent dump routine
+```
+0SECTION       MEMINFO subcomponent dump routine
+
 NULL           =================================
+
 1STHEAPFREE    Bytes of Heap Space Free: 1bee0198 
+
 1STHEAPALLOC   Bytes of Heap Space Allocated: 40000000
 ```
 Bu kısım hexadecimal, yani bunu decimal'a çevirirseniz, max heap ve boş miktarı görebilirsiniz. Bu da faydalı bir bilgidir. Bazen OutOfMemory heap'in farklı bölümlerinde gerçekleşebilir, yani native memory'de verebilir, permanent space de, dolayısıyla JVM heap de mi yoksa, başka bir yerde mi anlamak için iyi bir nokta burası.
