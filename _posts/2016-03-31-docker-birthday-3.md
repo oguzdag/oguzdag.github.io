@@ -6,6 +6,7 @@ categories:
   - docker
 ---
 
+
 Docker 3. yaşgününü kutluyor. [Linke tıklayarak duyurusuna ulaşabilirsiniz](https://blog.docker.com/2016/03/docker-birthday-3-thanks-all/) 3. yaşgününe özel, yarı tutorial, yarı yarışma bir organizasyon yapmışlar.
 
 Kısaca, docker'ın temel özelliklerini kullanarak, docker-compose ile bir grup uygulamayı ayağa kaldırmak ve ardından, bu değişiklik yaptığımız imajları, dockerhub hesabımıza yüklemek üzerine dayalı. Adım adım ne yapılması gerektiğini [buradan](https://github.com/docker/docker-birthday-3/blob/master/tutorial.md) takip edebilirsiniz.
@@ -19,3 +20,5 @@ Docker 3 yaşında emekleme safhasını yavaş yavaş geçiyor, henüz Türkiye'
 Gelelim sonuçlara, pyhton açık ara önde, tamam tutorial'da böyle yazılmasının etkisi var ama devops'un da katıldığı bu yazılım ekosisteminde de çok uzun süre önde olacak :)
 
 ![languages.png]({{site.baseurl}}/images/languages.png)
+
+Bu adam bunlara nereden bakıyor yahu, diyenler için [Dockerize](https://dockerize.it/)
