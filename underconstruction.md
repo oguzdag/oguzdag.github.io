@@ -1,7 +1,6 @@
 ---
 title: Under Construction
 permalink: /underconstruction/
-layout: page
 sitemap: false 
 ---
 
