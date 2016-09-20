@@ -1,13 +1,13 @@
 ---
 published: true
 layout: post
-title: "MongoDB Universitesi - 1.Hafta"
+title: "MongoDB University - Week 1"
 categories: 
   - mongodb
 ---
 
 
-Evet ilk hafta başladı, yaklaşık 2 saatlik video ve ardından verilen ödevlerle tamamlandı. 
+Yes, first week started, approximately 2 hours video and homeworks completed :)
 
 **"MongoDB for Developers"** dersi, MongoDB'nin kurulması, Python, PyMongo, Bottle kurulması üzerineydi. Bunları kurduysanız ve çalışır durumdaysa, homework yapmakta sıkıntı yok. Hazır verilen python'ları çalıştırıp sonuçları yazıyorsunuz. Özellikle Python array ve dict üzerinde durup, bunun MongoDB'deki JSON doc'ları ile nasıl benzerlik gösterdiği ön plana çıkan kısımlardı.
 
