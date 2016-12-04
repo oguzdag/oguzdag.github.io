@@ -1,9 +1,6 @@
 #!groovy
 node {
-    /* .. snip .. */
-    stage('Build') {
-        sh 'make' // <1>
-        archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true // <2>
-    }
-    /* .. snip .. */
+    def username = 'Jenkins'
+    echo 'Hello Mr. ${username}'
+    echo "I said, Hello Mr. ${username}"
 }
