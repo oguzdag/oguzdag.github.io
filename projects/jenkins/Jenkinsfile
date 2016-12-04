@@ -1,4 +1,9 @@
 #!groovy
 node {
-    echo "Hello World"
+    /* .. snip .. */
+    stage('Build') {
+        sh 'make' // <1>
+        archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true // <2>
+    }
+    /* .. snip .. */
 }
